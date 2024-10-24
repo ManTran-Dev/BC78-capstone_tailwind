@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid #e5e7eb
+}
+
+:root {
+    --tw-bg-opacity: 1;
+}
+
+body {
+
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: rgb(117 118 147/var(--tw-text-opacity));
+    line-height: inherit
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.animateDuration {
+    animation-duration: 2s;
+}
+
+
+
+/* ABOUTUS  */
+
+.aboutus .aboutus-content {
+    background-image: linear-gradient(to bottom, #E0E8FF, #F5F7FF);
+
+}
+
+/* JOIN  */
+.join .join-item {
+    background-image: linear-gradient(to bottom, #E0E9FF, #F5F7FF);
+}
+
+/* ASK 
+ */
+.ask h3:first-of-type span::before {
+    content: "";
+}
