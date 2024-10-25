@@ -15,7 +15,7 @@
 
 body {
 
-    font-family: Inter, sans-serif;
+    font-family: ui-sans-serif, system-ui;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -54,4 +54,8 @@ a {
  */
 .ask h3:first-of-type span::before {
     content: "";
+}
+
+.formmassage .formmassagebg {
+    background-image: linear-gradient(to bottom, #F6F8FF, #FEFEFE);
 }
