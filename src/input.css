@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0 solid #e5e7eb
+    border: 0 solid #e5e7eb;
 }
 
 :root {
@@ -14,14 +14,13 @@
 }
 
 body {
-
     font-family: ui-sans-serif, system-ui;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     --tw-text-opacity: 1;
-    color: rgb(117 118 147/var(--tw-text-opacity));
-    line-height: inherit
+    color: rgb(117 118 147 / var(--tw-text-opacity));
+    line-height: inherit;
 }
 
 li {
@@ -32,30 +31,34 @@ a {
     text-decoration: none;
 }
 
-.animateDuration {
-    animation-duration: 2s;
-}
-
-
-
-/* ABOUTUS  */
-
+/* ABOUTUS */
 .aboutus .aboutus-content {
     background-image: linear-gradient(to bottom, #E0E8FF, #F5F7FF);
-
 }
 
-/* JOIN  */
+/* JOIN */
 .join .join-item {
     background-image: linear-gradient(to bottom, #E0E9FF, #F5F7FF);
 }
 
-/* ASK 
- */
+/* ASK */
 .ask h3:first-of-type span::before {
     content: "";
 }
 
 .formmassage .formmassagebg {
     background-image: linear-gradient(to bottom, #F6F8FF, #FEFEFE);
+}
+
+
+
+.phongto {
+    transition: transform 0.5s ease;
+    transform: scale(1)
+}
+
+.blogs .divphongto:hover .phongto {
+
+    animation: scaleUp 0.5s forwards;
+    transform: scale(1.1)
 }
