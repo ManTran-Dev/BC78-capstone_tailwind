@@ -59,7 +59,9 @@ module.exports = {
       backgroundColor: {
         zumthor: "rgb(237 245 255 / var(--tw-bg-opacity))",
         // Thêm class bg-zumthor
-        titlebg2: "rgb(255 234 194 / var(--tw-bg-opacity))",
+        'titlebg2': 'rgb(255 234 194 / var(--tw-bg-opacity))',
+        'brandname': "#FBFBFB",
+        'solid': "#EDF5FF",
       },
       boxShadow: {
         "solid-7": "0px 30px 50px rgba(45, 74, 170, .1)",
@@ -79,6 +81,10 @@ module.exports = {
       aspectRatio: {
         "368/239": "368 / 239",
       },
+      container: {
+        center: true,
+      },
+
     },
   },
   plugins: [require("flowbite/plugin")],
