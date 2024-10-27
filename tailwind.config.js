@@ -10,9 +10,6 @@ module.exports = {
         brandname: "#FBFBFB",
         solid: "#EDF5FF",
       },
-      backgroundImage: {
-        Solid_UI: "url('./img/clean.jpg')",
-      },
     },
   },
   plugins: [require("flowbite/plugin")],
