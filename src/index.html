@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/icon_logo.png" />
+
     <!-- LINE AWESOME -->
-    <link rel="stylesheet" href="./lib/css/line-awesome.min.css" />
-    <link
-      rel="stylesheet"
-      href="path/to/line-awesome/css/line-awesome-font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="./lib/lineawesome/line-awesome.min.css" />
+
     <!-- font awesome  -->
     <link
       rel="stylesheet"
@@ -17,24 +16,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../src/output.css" />
+
     <!-- animation  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- slick -->
-    <link rel="stylesheet" href="./../src/lib/slick/slick-theme.css" />
-    <link rel="stylesheet" href="./../src/lib/slick/slick.css" />
+    <link rel="stylesheet" href="./lib/slick/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./lib/slick/slick/slick.css" />
 
     <link rel="stylesheet" href="./main.css" />
-
+    <link rel="stylesheet" href="./output.css" />
     <!-- FLOWBITE CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>
+      Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate
+    </title>
   </head>
   <body>
     <!-- HEADER -->
@@ -216,7 +217,7 @@
       </div>
     </header>
     <!-- CAROUSEL -->
-    <section class="carousel pt-44 pb-20 container px-4">
+    <section class="carousel pt-44 pb-20 mx-auto max-w-c_1390 px-4">
       <div class="lg:flex lg:items-center xl:gap-32 lg:gap-5">
         <!-- carousel__text -->
         <div class="lg:w-1/2 sm:w-full">
@@ -265,7 +266,7 @@
     <!-- BRANDNAME -->
     <section class="brandname py-10 bg-brandname border">
       <div
-        class="container grid grid-cols-3 gap-7 md:flex md:justify-between text-center wow animate__animated animate__fadeInDown"
+        class="mx-auto max-w-c_1390 grid grid-cols-3 gap-7 md:flex md:justify-between text-center wow animate__animated animate__fadeInDown"
         data-wow-duration="2s"
       >
         <a href="#"
@@ -476,7 +477,7 @@
     <!-- SOLUTION -->
     <section class="solution pb-20 px-4">
       <div
-        class="xl:max-w-screen-xl xl:mx-auto flex items-center xl:gap-32 sm:container sm:gap-8"
+        class="xl:max-w-screen-xl xl:mx-auto flex items-center xl:gap-32 sm:gap-8"
       >
         <div
           class="w-1/2 hidden lg:block wow animate__animated animate__fadeInLeft"
@@ -582,7 +583,7 @@
     </section>
     <!-- SOLID UI -->
     <section class="solid_ui py-24">
-      <div class="xl:max-w-screen-xl xl:mx-auto px-4 z-40 relative">
+      <div class="mx-auto max-w-c_1390 px-4 z-40 relative">
         <div
           class="mb-4 md:border-b border-gray-200 dark:border-gray-700 border wow animate__animated animate__fadeInDown"
         >
@@ -649,9 +650,12 @@
           </ul>
         </div>
 
-        <div id="default-tab-content" class="pt-10">
+        <div
+          id="default-tab-content"
+          class="pt-10 wow animate__animated animate__fadeInDown"
+        >
           <div
-            class="hidden p-4 rounded-lg dark:bg-gray-800 wow animate__animated animate__fadeInDown"
+            class="hidden p-4 rounded-lg dark:bg-gray-800"
             data-wow-duration="1s"
             data-wow-delay="1s"
             id="clean-user-interface"
@@ -1711,16 +1715,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./../src/lib/wow/wow.min.js"></script>
+    <script src="./lib/wow/dist/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
 
     <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
-    <script src="./lib/slick/slick.min.js"></script>
+    <script src="./lib/slick/slick/slick.min.js"></script>
     <script>
       $(".slideslick").slick({
         dots: true,
