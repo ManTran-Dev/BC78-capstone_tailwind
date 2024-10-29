@@ -1188,6 +1188,10 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 2.25rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -2815,6 +2819,10 @@ a {
     display: block;
   }
 
+  .xl\:flex {
+    display: flex;
+  }
+
   .xl\:hidden {
     display: none;
   }
@@ -2845,10 +2853,6 @@ a {
 
   .xl\:max-w-screen-xl {
     max-width: 1280px;
-  }
-
-  .xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
