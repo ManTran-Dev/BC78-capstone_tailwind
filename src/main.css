@@ -1,50 +1,58 @@
 .movephai {
-    transition: transform 0.5s ease;
-    /* Chuyển đổi transform một cách mượt mà */
-    display: inline-block;
-    /* Đảm bảo phần tử có thể chuyển động */
+  transition: transform 0.5s ease;
+  /* Chuyển đổi transform một cách mượt mà */
+  display: inline-block;
+  /* Đảm bảo phần tử có thể chuyển động */
 }
 
 .thea:hover .movephai {
-    transform: translateX(10px);
-    /* Dịch chuyển 10px sang phải khi hover */
+  transform: translateX(10px);
+  /* Dịch chuyển 10px sang phải khi hover */
 }
 
 /* Khi không hover, phần tử sẽ trở về vị trí ban đầu một cách mượt mà */
 .thea .movephai {
-    transform: translateX(0);
-    /* Quay lại vị trí ban đầu */
+  transform: translateX(0);
+  /* Quay lại vị trí ban đầu */
 }
 
 .slick-dots {
-    display: block !important;
+  display: block !important;
 }
 
 .slideslick .slick-dots li button {
-    background: #f0e7e7;
-    display: block !important;
-    border-radius: 50%;
-    /* Tạo hình tròn cho dấu chấm */
-    width: 8px;
-    /* Kích thước ban đầu của dấu chấm */
-    height: 8px;
-    /* Kích thước ban đầu của dấu chấm */
-    transition: width 0.3s ease, height 0.3s ease;
-    /* Hiệu ứng chuyển đổi */
+  background: #f0e7e7;
+  display: block !important;
+  border-radius: 50%;
+  /* Tạo hình tròn cho dấu chấm */
+  width: 8px;
+  /* Kích thước ban đầu của dấu chấm */
+  height: 8px;
+  /* Kích thước ban đầu của dấu chấm */
+  transition: width 0.3s ease, height 0.3s ease;
+  /* Hiệu ứng chuyển đổi */
 }
 
 .slideslick .slick-dots li.slick-active button {
-    background: rgb(0 107 255);
-    /* Màu xanh dương đậm hơn khi hoạt động hoặc hover */
-    width: 16px;
-    /* Kích thước lớn hơn khi hoạt động hoặc hover */
-    height: 8px;
-    /* Kích thước lớn hơn khi hoạt động hoặc hover */
-    border-radius: 25%;
+  background: rgb(0 107 255);
+  /* Màu xanh dương đậm hơn khi hoạt động hoặc hover */
+  width: 16px;
+  /* Kích thước lớn hơn khi hoạt động hoặc hover */
+  height: 8px;
+  /* Kích thước lớn hơn khi hoạt động hoặc hover */
+  border-radius: 25%;
 }
 
 @media screen and (min-width: 1024px) {
-    .prices .bot {
-        flex-wrap: nowrap;
-    }
+  .prices .bot {
+    flex-wrap: nowrap;
+  }
+}
+
+.cd-top {
+  visibility: hidden;
+}
+
+.cd-top--fade-out {
+  opacity: 0;
 }
