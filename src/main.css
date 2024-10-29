@@ -16,9 +16,13 @@
     /* Quay lại vị trí ban đầu */
 }
 
-.slick-dots li button {
-    background: rgb(238 238 238);
-    
+.slick-dots {
+    display: block !important;
+}
+
+.slideslick .slick-dots li button {
+    background: #f0e7e7;
+    display: block !important;
     border-radius: 50%;
     /* Tạo hình tròn cho dấu chấm */
     width: 8px;
@@ -29,12 +33,18 @@
     /* Hiệu ứng chuyển đổi */
 }
 
-.slick-dots li.slick-active button {
+.slideslick .slick-dots li.slick-active button {
     background: rgb(0 107 255);
     /* Màu xanh dương đậm hơn khi hoạt động hoặc hover */
     width: 16px;
     /* Kích thước lớn hơn khi hoạt động hoặc hover */
-    height: 10px;
+    height: 8px;
     /* Kích thước lớn hơn khi hoạt động hoặc hover */
-    border-radius: 30%;
+    border-radius: 25%;
+}
+
+@media screen and (min-width: 1024px) {
+    .prices .bot {
+        flex-wrap: nowrap;
+    }
 }
